@@ -23,7 +23,7 @@ codex-common = { path = "../common", features = ["cli"] }
 codex-core = { path = "../core" }
 codex-login = { path = "../login" }
 codex-tui = { path = "../tui" }
-crossterm = { version = "0.28.1", features = ["event-stream"] }
+crossterm = { version = "0.29.0", features = ["event-stream"] }
 ratatui = { version = "0.29.0" }
 reqwest = { version = "0.12", features = ["json"] }
 serde = { version = "1", features = ["derive"] }
